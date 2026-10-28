@@ -25,10 +25,7 @@ class Wizard(val name: String, var mana: Int, var spellPower: Int) {
     }
 
     fun train() {
-        if (mana >= 5) { // If we have at least 5 mana
-            spellPower +=1 // increase spellPower by 1
-            mana -= 5 // decrease mana by 5
-        }
+
     }
 
 }
